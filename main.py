@@ -72,7 +72,6 @@ def game():
     words: list[str] = []
 
     while guess <= attempts:
-        print(word_guessed)
 
         console.rule(f"✨ Guess {guess} ✨")
 
